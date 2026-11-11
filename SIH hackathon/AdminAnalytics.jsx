@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useApp } from './AppContext';
 import { StatBox } from './common';
-import { isFileServingAllowed } from 'vite';
 
 const API_URL = 'https://capacity-connect-backend-wh7n.onrender.com/api';
 
